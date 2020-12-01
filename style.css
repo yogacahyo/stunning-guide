@@ -1,0 +1,469 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-brand{
+    font-family: viga;
+    font-size: 32px;
+}
+.navbar-brand span{
+    color:#007BFF;
+    font-weight: 100px;
+}
+
+/* Slideshow */
+.slideshow{
+    position: sticky;
+    he
+}
+
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(files/Jumbotron-bg.jpg);
+    background-size: cover;
+    height: 640px;
+    text-align: center; 
+    position: relative;
+}
+
+.jumbotron .container{
+    z-index: 0;
+}
+
+/* Jumbotron  Event*/
+.jumbotron2{
+    background-color: #007BFF;
+    background-size: cover;
+    height: 600px !important;
+    text-align: center; 
+    position: relative;
+    padding-top: 20px;
+}
+.jumbotron1{
+    background-color: #007BFF;
+    background-size: cover;
+    height: 850px ;
+    text-align: center; 
+    position: relative;
+    padding-top: 30px;
+}
+.jumbotron2 .display-4{
+    color: white;
+    margin-bottom: 0 px;
+    margin-top: 0px;
+    font-weight: 170;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size:  40px;
+}
+
+.jumbotron1 .display-4{
+    color: white;
+    margin-bottom: 0 px;
+    margin-top: 0px;
+    font-weight: 170;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size:  40px;
+}
+.jumbotron2 .display-4 span{
+    font-weight: 500;
+}
+
+.jumbotron1 .display-4 span{
+    font-weight: 500;
+}
+
+
+.jumbotron .display-4{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    font-weight: 170;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size:  40px;
+}
+.jumbotron .display-4 span{
+    font-weight: 500;
+}
+
+
+/* Event */
+.main h1{
+    font-size: 60px;
+    color: white;
+}
+
+.main h2{
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.main p{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.main p1{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.main span{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.main img{
+    width: 400px;
+}
+.main a{
+    margin-top: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+
+
+/* Konten */
+.Konten{
+    margin-top: 10px;
+    text-align: center;
+    margin: 100px;
+}
+
+.Konten{
+    margin: 100px;
+}
+
+
+.Konten h1{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+.Konten h2{
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.Konten h3{
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 10px ;
+}
+.Konten span{
+    font-weight: 500;
+}
+
+.Konten p{
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    margin-top: 100px;
+}
+/* workingspace */
+.workingspace{
+    margin-top: 120px;
+    text-align: center;
+    margin-left: 60px;
+    
+}
+
+.workingspace h3{
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px !important;
+}
+
+.workingspace h4{
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 50px !important;
+}
+
+.workingspace span{
+    font-weight: 500;
+}
+
+.workingspace p{
+    font-size: 18px;
+    color: #acacac;
+    font-weight: 200;
+    margin-top: 100px;
+}
+
+
+
+/* Slideshow */
+.carousel img{
+    height: 620px; ;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+    object-fit: cover;
+}
+.carousel p{
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 150px;
+    font-weight: 170;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size:  40px;
+}
+
+/* Info Panel */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: #007BFF;
+    padding: 30px;
+
+}
+
+.info-panel img{
+    width: 200px;
+    height: 260px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+}
+
+.team{
+    margin: 5px;
+}
+.info-panel h1{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 10px;
+
+}
+.info-panel h1::after{
+    content: '';
+    background: wheat;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+}
+.profile{
+    margin-top: 25px;
+}
+.profile .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+}
+.profile h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* footer */
+.footer{
+    background: #343A40;
+    color: white;
+    padding: 80px 0;
+    
+}
+
+.one {
+    letter-spacing: 1px;
+    margin: 10px 0 ;
+    
+}
+.one i{
+    font-size: 20px;
+    padding: 5px; 
+}
+
+/* utilitiy */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+/* Create Event */
+.create{
+    margin:5px 50px 5px 50px;
+}
+
+
+/* login*/
+.form-container{
+
+    background-color: #007BFF;
+    display: flex;
+    justify-content: center;
+  }
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.form-box h4{
+    font-weight: bold;
+    color: white;
+}
+.form-box .form-input{
+    position: relative;
+}
+.form-box .form-input input{
+    width:100%;
+    height:40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    padding-left: 45px;
+    
+}
+.form-box .form-input span{
+    position: absolute;
+    top: 8px;
+    padding-left: 20px;
+    color: #777;
+}
+.form-box button[type="submit"]{
+    border:none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-right: 5px;
+    background-color: white;
+    color: #007BFF;
+    font-weight: bold; 
+    
+}
+.form-box button[type="submit"]:hover{
+    box-shadow: 0px 10px 10px -3px rgba(0, 0, 0, 0.55);
+    
+}
+
+/*about*/
+.google-map{
+    width:100%;
+    height:83vh;
+}
+/*contact*/
+.Location{
+    background-color: #007BFF;
+    color: white;
+}
+
+
+
+/* DESTOP VERSION*/
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 32px;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        color: #007BFF;
+    }
+
+    .jumbotron{
+        margin-top:0;
+        height: 620px;
+        
+    }
+
+    .jumbotron .display-4 {
+        font-size:  62px;
+    }
+
+/* Jumbotron Event */
+    .jumbotron2{
+        margin-top:0;
+        height: 450px !important;
+    }
+
+    .jumbotron1{
+        margin-top:0;
+        padding-top: 50px;
+        height: 450px !important;
+        
+    }
+    .jumbotron2 .display-4 {
+        font-size:  62px;
+    }
+
+    .jumbotron1 .display-4 {
+        font-size:  62px;
+    }
+    .workingspace{
+        text-align: left;
+    }
+    .testimonial h5{
+        font-size: 32px;
+    }
+    .image-container{
+        background:url('files/login.jpg') center no-repeat;
+        width: ;
+        background-size: cover;
+        margin-top: 9vh;
+        height: 83vh;  
+      }
+    /* Create Event */
+    .create{
+        margin:50px 300px 50px 300px;
+    }
+    
+}
